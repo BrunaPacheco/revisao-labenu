@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: radial-gradient( 125% 250% at right, #f0ecec 55%, #8666EF 50.1%); 
+}
+
+/* estilização barra lateral */
+.sidenavA {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8666EF;
+  overflow-x: hidden;
+  line-height: 100px;
+  overflow: hidden;    
+  }
+
+    /* estilização do seletor de jogos*/
+  .seletor {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 70px ;
+    margin-left: 75px;
+    background-color: ##FFFFFF;
+    border: 1px solid #8666EF ;
+    color: #333333;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  /* logotipo */
+.logotipo {
+  margin-top: 150px;
+  margin-left:75px ;
+}
+
+  /* estilização dos "p" quina, concurso, numero */
+.quina {
+  margin-top: -115px;
+  margin-left: 150px ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.concurso {
+  margin-top: 140px;
+  margin-left: 75px ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 9px;
+  color: #FFFFFF;  
+}
+
+.numero {
+  margin-top: -90px;
+  margin-left: 73px ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;  
+  font-weight: bold;
+}
+
+/* estilização dos botões numéricos*/
+button {
+  border-radius: 150%;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  border: 1px solid #f0ecec;
+  background-color: white;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 200px;
+}
+
+/*container dos botões numéricos */
+.container {
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-bottom: 200px;
+  margin-right: 250px;
+}
+
+/* estilização do texto abaixo dos botões numéricos */
+.texto {
+  padding-left: 600px;
+}
